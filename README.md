@@ -1,4 +1,4 @@
-Simple Flask Event management CRUD app
+# Event Management application using Flask
 
 ### Setup
 Create project with virtual environment
@@ -19,7 +19,7 @@ or on Windows
 venv\Scripts\activate
 ```
 
-Install Flask
+Install Dependencies
 ```console
 $ pip install Flask
 $ pip install Flask-SQLAlchemy
@@ -41,3 +41,15 @@ Run the app
 ```console
 $ flask run
 ```
+
+
+## Admin functionality
+- View all events
+- Add a new event
+- Update event details
+- Delete event
+
+## User functionality
+- View available events
+- Book tickets for an event
+- Cancel booking
